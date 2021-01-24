@@ -1,7 +1,0 @@
-function collision(ob1,ob2){
-    if(abs(ob1.x-ob2.x)<=ob1.width/2+ob2.width/2 && abs(ob1.y-ob2.y)<=ob1.height/2+ob2.height/2){
-     return true
-    }else{
-     return false
-    }
-  }
